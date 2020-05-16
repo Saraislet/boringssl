@@ -2450,7 +2450,7 @@ OPENSSL_EXPORT int SSL_CTX_set_default_verify_paths(SSL_CTX *ctx);
 // one on success and zero on failure.
 //
 // See
-// https://www.openssl.org/docs/manmaster/ssl/SSL_CTX_load_verify_locations.html
+// https://www.openssl.org/docs/man1.1.0/man3/SSL_CTX_load_verify_locations.html
 // for documentation on the directory format.
 OPENSSL_EXPORT int SSL_CTX_load_verify_locations(SSL_CTX *ctx,
                                                  const char *ca_file,
